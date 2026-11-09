@@ -1,4 +1,4 @@
-# PyCharm
+﻿# PyCharm
 .idea/
 .venv/
 
@@ -12,8 +12,10 @@ __pycache__/
 # Editor
 .vscode/
 
-# Generated data (artifact sinh ra khi sử dụng)
+# Generated data (artifact sinh ra khi su dung)
 backups/
 exports/
 
-# Giữ lại dữ liệu mẫu để chạy demo: database.db, projects.json, tasks.json
+# Co so du lieu SQLite - KHONG commit (chua hash mat khau nguoi dung)
+*.db
+database.db
